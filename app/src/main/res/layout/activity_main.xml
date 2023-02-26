@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
     android:background="@color/bgColor"
-    android:padding="10dp"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="CALCULATE YOUR"
         android:textColor="@color/textBlue"
-        android:layout_marginBottom="16dp"
         android:textSize="25sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AGE"
-        android:padding="10dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/ageBg"
+        android:padding="10dp"
+        android:text="AGE"
         android:textColor="@color/white"
         android:textSize="25sp"
-        android:layout_marginBottom="16dp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="IN MINUTES"
         android:textColor="@color/textBlue"
-        android:layout_marginBottom="16dp"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -43,19 +42,18 @@
         android:id="@+id/dateBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select date"
         android:layout_marginBottom="16dp"
-        android:textColor="@color/white"
         android:backgroundTint="@color/btnBg"
-    />
+        android:text="Select date"
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/selectedDateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="30.01.2000"
         android:textColor="@color/textBlue"
-        android:layout_marginBottom="16dp"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -73,9 +71,9 @@
         android:id="@+id/inMinutesText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="140000000"
         android:textColor="@color/ageBg"
-        android:layout_marginBottom="16dp"
         android:textSize="25sp"
         android:textStyle="bold" />
 

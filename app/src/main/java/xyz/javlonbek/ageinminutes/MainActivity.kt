@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -44,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                 inMinutesText.text = (currentDateInMinutes - dateInMinutes).toString()
             }, year, month, day
         )
-        dp.datePicker.maxDate = System.currentTimeMillis() - 86400;
+        dp.datePicker.maxDate = System.currentTimeMillis() - 86400
         dp.show()
     }
 }
